@@ -1,0 +1,1383 @@
+Sat Sep 10 22:41:22 WEST 2016
+-- The C compiler identification is GNU 4.2.1
+-- The CXX compiler identification is GNU 4.2.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GNU Make at /usr/local/bin/gmake
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.T8nxrK3k81/.deps
+Scanning dependencies of target libuv
+[  1%] Creating directories for 'libuv'
+[  2%] Performing download step for 'libuv'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/libuv/v1.9.1.tar.gz
+-- downloading...
+     src='https://github.com/libuv/libuv/archive/v1.9.1.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/libuv/v1.9.1.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/libuv/v1.9.1.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[  3%] No patch step for 'libuv'
+[  4%] No update step for 'libuv'
+[  5%] Performing configure step for 'libuv'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-unknown-openbsd6.0
+checking host system type... x86_64-unknown-openbsd6.0
+checking for gcc... /usr/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/cc accepts -g... yes
+checking for /usr/bin/cc option to accept ISO C89... none needed
+checking whether /usr/bin/cc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of /usr/bin/cc... gcc3
+checking if /usr/bin/cc supports -fvisibility=hidden flag... yes
+checking if /usr/bin/cc supports -g flag... yes
+checking if /usr/bin/cc supports -std=gnu89 flag... yes
+checking if /usr/bin/cc supports -pedantic flag... yes
+checking if /usr/bin/cc supports -Wall flag... yes
+checking if /usr/bin/cc supports -Wextra flag... yes
+checking if /usr/bin/cc supports -Wno-unused-parameter flag... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking how to print strings... print -r
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /usr/bin/cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... no
+checking how to convert x86_64-unknown-openbsd6.0 file names to x86_64-unknown-openbsd6.0 format... func_convert_file_noop
+checking how to convert x86_64-unknown-openbsd6.0 file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... match_pattern /lib[^/]+(\.so\.[0-9]+\.[0-9]+|\.so|_pic\.a)$
+checking for dlltool... no
+checking how to associate runtime and link libraries... print -r --
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from /usr/bin/cc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... /usr/bin/cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /usr/bin/cc supports -fno-rtti -fno-exceptions... no
+checking for /usr/bin/cc option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/cc PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/cc static flag -static works... yes
+checking if /usr/bin/cc supports -c -o file.o... yes
+checking if /usr/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... openbsd6.0 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking whether make supports nested variables... (cached) yes
+checking for dlopen in -ldl... no
+checking for kstat_lookup in -lkstat... no
+checking for kvm_open in -lkvm... yes
+checking for gethostbyname in -lnsl... no
+checking for perfstat_cpu in -lperfstat... no
+checking for pthread_mutex_init in -lpthread... yes
+checking for clock_gettime in -lrt... no
+checking for sendfile in -lsendfile... no
+checking for socket in -lsocket... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking sys/ahafs_evProds.h usability... no
+checking sys/ahafs_evProds.h presence... no
+checking for sys/ahafs_evProds.h... no
+checking for pkg-config... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating libuv.pc
+config.status: creating Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+[  6%] No build step for 'libuv'
+[  7%] Performing install step for 'libuv'
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/libuv_la-fs-poll.lo -MD -MP -MF src/.deps/libuv_la-fs-poll.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/fs-poll.c  -fPIC -DPIC -o src/libuv_la-fs-poll.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/libuv_la-inet.lo -MD -MP -MF src/.deps/libuv_la-inet.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/inet.c  -fPIC -DPIC -o src/libuv_la-inet.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/libuv_la-threadpool.lo -MD -MP -MF src/.deps/libuv_la-threadpool.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/threadpool.c  -fPIC -DPIC -o src/libuv_la-threadpool.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/libuv_la-uv-common.lo -MD -MP -MF src/.deps/libuv_la-uv-common.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/uv-common.c  -fPIC -DPIC -o src/libuv_la-uv-common.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/libuv_la-version.lo -MD -MP -MF src/.deps/libuv_la-version.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/version.c  -fPIC -DPIC -o src/libuv_la-version.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-async.lo -MD -MP -MF src/unix/.deps/libuv_la-async.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/async.c  -fPIC -DPIC -o src/unix/libuv_la-async.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-core.lo -MD -MP -MF src/unix/.deps/libuv_la-core.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/core.c  -fPIC -DPIC -o src/unix/libuv_la-core.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-dl.lo -MD -MP -MF src/unix/.deps/libuv_la-dl.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/dl.c  -fPIC -DPIC -o src/unix/libuv_la-dl.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-fs.lo -MD -MP -MF src/unix/.deps/libuv_la-fs.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/fs.c  -fPIC -DPIC -o src/unix/libuv_la-fs.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-getaddrinfo.lo -MD -MP -MF src/unix/.deps/libuv_la-getaddrinfo.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/getaddrinfo.c  -fPIC -DPIC -o src/unix/libuv_la-getaddrinfo.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-getnameinfo.lo -MD -MP -MF src/unix/.deps/libuv_la-getnameinfo.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/getnameinfo.c  -fPIC -DPIC -o src/unix/libuv_la-getnameinfo.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-loop-watcher.lo -MD -MP -MF src/unix/.deps/libuv_la-loop-watcher.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/loop-watcher.c  -fPIC -DPIC -o src/unix/libuv_la-loop-watcher.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-loop.lo -MD -MP -MF src/unix/.deps/libuv_la-loop.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/loop.c  -fPIC -DPIC -o src/unix/libuv_la-loop.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-pipe.lo -MD -MP -MF src/unix/.deps/libuv_la-pipe.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/pipe.c  -fPIC -DPIC -o src/unix/libuv_la-pipe.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-poll.lo -MD -MP -MF src/unix/.deps/libuv_la-poll.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/poll.c  -fPIC -DPIC -o src/unix/libuv_la-poll.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-process.lo -MD -MP -MF src/unix/.deps/libuv_la-process.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/process.c  -fPIC -DPIC -o src/unix/libuv_la-process.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-signal.lo -MD -MP -MF src/unix/.deps/libuv_la-signal.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/signal.c  -fPIC -DPIC -o src/unix/libuv_la-signal.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-stream.lo -MD -MP -MF src/unix/.deps/libuv_la-stream.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/stream.c  -fPIC -DPIC -o src/unix/libuv_la-stream.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-tcp.lo -MD -MP -MF src/unix/.deps/libuv_la-tcp.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/tcp.c  -fPIC -DPIC -o src/unix/libuv_la-tcp.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-thread.lo -MD -MP -MF src/unix/.deps/libuv_la-thread.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/thread.c  -fPIC -DPIC -o src/unix/libuv_la-thread.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-timer.lo -MD -MP -MF src/unix/.deps/libuv_la-timer.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/timer.c  -fPIC -DPIC -o src/unix/libuv_la-timer.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-tty.lo -MD -MP -MF src/unix/.deps/libuv_la-tty.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/tty.c  -fPIC -DPIC -o src/unix/libuv_la-tty.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-udp.lo -MD -MP -MF src/unix/.deps/libuv_la-udp.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/udp.c  -fPIC -DPIC -o src/unix/libuv_la-udp.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-kqueue.lo -MD -MP -MF src/unix/.deps/libuv_la-kqueue.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/kqueue.c  -fPIC -DPIC -o src/unix/libuv_la-kqueue.o
+libtool: compile:  /usr/bin/cc -DPACKAGE_NAME=\"libuv\" -DPACKAGE_TARNAME=\"libuv\" -DPACKAGE_VERSION=\"1.9.1\" "-DPACKAGE_STRING=\"libuv 1.9.1\"" -DPACKAGE_BUGREPORT=\"https://github.com/libuv/libuv/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libuv\" -DVERSION=\"1.9.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBKVM=1 -DHAVE_LIBPTHREAD=1 -I. -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src -I/tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -g -O2 -fvisibility=hidden -g -std=gnu89 -pedantic -Wall -Wextra -Wno-unused-parameter -MT src/unix/libuv_la-openbsd.lo -MD -MP -MF src/unix/.deps/libuv_la-openbsd.Tpo -c /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/src/unix/openbsd.c  -fPIC -DPIC -o src/unix/libuv_la-openbsd.o
+libtool: link: ar cru .libs/libuv.a  src/libuv_la-fs-poll.o src/libuv_la-inet.o src/libuv_la-threadpool.o src/libuv_la-uv-common.o src/libuv_la-version.o src/unix/libuv_la-async.o src/unix/libuv_la-core.o src/unix/libuv_la-dl.o src/unix/libuv_la-fs.o src/unix/libuv_la-getaddrinfo.o src/unix/libuv_la-getnameinfo.o src/unix/libuv_la-loop-watcher.o src/unix/libuv_la-loop.o src/unix/libuv_la-pipe.o src/unix/libuv_la-poll.o src/unix/libuv_la-process.o src/unix/libuv_la-signal.o src/unix/libuv_la-stream.o src/unix/libuv_la-tcp.o src/unix/libuv_la-thread.o src/unix/libuv_la-timer.o src/unix/libuv_la-tty.o src/unix/libuv_la-udp.o src/unix/libuv_la-kqueue.o src/unix/libuv_la-openbsd.o
+libtool: link: ranlib .libs/libuv.a
+libtool: link: ( cd ".libs" && rm -f "libuv.la" && ln -s "../libuv.la" "libuv.la" )
+ /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/install-sh -c -d '/tmp/tmp.T8nxrK3k81/.deps/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libuv.la '/tmp/tmp.T8nxrK3k81/.deps/usr/lib'
+libtool: install: /usr/bin/install -c -m 644 .libs/libuv.lai /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libuv.la
+libtool: install: /usr/bin/install -c .libs/libuv.a /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libuv.a
+libtool: install: chmod 644 /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libuv.a
+libtool: install: ranlib -t /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libuv.a
+libtool: finish: PATH="/home/raf/.local/bin:/home/raf/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:.:/sbin" ldconfig -m /tmp/tmp.T8nxrK3k81/.deps/usr/lib
+ /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/install-sh -c -d '/tmp/tmp.T8nxrK3k81/.deps/usr/include'
+ /usr/bin/install -c -m 644 /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include/uv.h /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include/uv-errno.h /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include/uv-threadpool.h /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include/uv-version.h /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include/uv-unix.h /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/include/uv-bsd.h '/tmp/tmp.T8nxrK3k81/.deps/usr/include'
+ /tmp/tmp.T8nxrK3k81/.deps/build/src/libuv/install-sh -c -d '/tmp/tmp.T8nxrK3k81/.deps/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libuv.pc '/tmp/tmp.T8nxrK3k81/.deps/usr/lib/pkgconfig'
+[  9%] Completed 'libuv'
+[  9%] Built target libuv
+Scanning dependencies of target jemalloc
+[ 10%] Creating directories for 'jemalloc'
+[ 11%] Performing download step for 'jemalloc'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/jemalloc/jemalloc-4.2.1.tar.bz2
+-- downloading...
+     src='https://github.com/jemalloc/jemalloc/releases/download/4.2.1/jemalloc-4.2.1.tar.bz2'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/jemalloc/jemalloc-4.2.1.tar.bz2'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/jemalloc/jemalloc-4.2.1.tar.bz2'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/jemalloc'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 12%] No patch step for 'jemalloc'
+[ 13%] No update step for 'jemalloc'
+[ 14%] Performing configure step for 'jemalloc'
+checking for xsltproc... false
+checking for gcc... /usr/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/cc accepts -g... yes
+checking for /usr/bin/cc option to accept ISO C89... none needed
+checking whether compiler supports -std=gnu99... yes
+checking whether compiler supports -Wall... yes
+checking whether compiler supports -Werror=declaration-after-statement... yes
+checking whether compiler supports -Wshorten-64-to-32... no
+checking whether compiler supports -Wsign-compare... yes
+checking whether compiler supports -pipe... yes
+checking whether compiler supports -g3... yes
+checking how to run the C preprocessor... /usr/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking size of void *... 8
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of intmax_t... 8
+checking build system type... x86_64-unknown-openbsd6.0
+checking host system type... x86_64-unknown-openbsd6.0
+checking whether pause instruction is compilable... yes
+checking for ar... ar
+checking malloc.h usability... no
+checking malloc.h presence... no
+checking for malloc.h... no
+checking whether __attribute__ syntax is compilable... yes
+checking whether compiler supports -fvisibility=hidden... yes
+checking whether compiler supports -Werror... yes
+checking whether tls_model attribute is compilable... no
+checking whether compiler supports -Werror... yes
+checking whether alloc_size attribute is compilable... no
+checking whether compiler supports -Werror... yes
+checking whether format(gnu_printf, ...) attribute is compilable... no
+checking whether compiler supports -Werror... yes
+checking whether format(printf, ...) attribute is compilable... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking for ld... /usr/bin/ld
+checking for autoconf... /usr/local/bin/autoconf
+checking for memalign... no
+checking for valloc... yes
+checking whether compiler supports -O3... yes
+checking whether compiler supports -funroll-loops... yes
+checking configured backtracing method... N/A
+checking for sbrk... yes
+checking whether utrace(2) is compilable... no
+checking whether valgrind is compilable... no
+checking whether a program using __builtin_ffsl is compilable... yes
+checking LG_PAGE... 12
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_create in -lpthread... yes
+checking for library containing clock_gettime... none required
+checking for secure_getenv... no
+checking for issetugid... yes
+checking for _malloc_thread_cleanup... no
+checking for _pthread_mutex_init_calloc_cb... no
+Forcing no TLS to avoid allocator/threading bootstrap issues
+checking whether C11 atomics is compilable... no
+checking whether atomic(9) is compilable... no
+checking whether Darwin OSAtomic*() is compilable... no
+checking whether madvise(2) is compilable... yes
+checking whether to force 32-bit __sync_{add,sub}_and_fetch()... yes
+checking whether to force 64-bit __sync_{add,sub}_and_fetch()... yes
+checking for __builtin_clz... yes
+checking whether Darwin OSSpin*() is compilable... no
+checking whether glibc malloc hook is compilable... no
+checking whether glibc memalign hook is compilable... no
+checking whether pthreads adaptive mutexes is compilable... no
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating jemalloc.pc
+config.status: creating doc/html.xsl
+config.status: creating doc/manpages.xsl
+config.status: creating doc/jemalloc.xml
+config.status: creating include/jemalloc/jemalloc_macros.h
+config.status: creating include/jemalloc/jemalloc_protos.h
+config.status: creating include/jemalloc/jemalloc_typedefs.h
+config.status: creating include/jemalloc/internal/jemalloc_internal.h
+config.status: creating test/test.sh
+config.status: creating test/include/test/jemalloc_test.h
+config.status: creating config.stamp
+config.status: creating bin/jemalloc-config
+config.status: creating bin/jemalloc.sh
+config.status: creating bin/jeprof
+config.status: creating include/jemalloc/jemalloc_defs.h
+config.status: creating include/jemalloc/internal/jemalloc_internal_defs.h
+config.status: creating test/include/test/jemalloc_test_defs.h
+config.status: executing include/jemalloc/internal/private_namespace.h commands
+config.status: executing include/jemalloc/internal/private_unnamespace.h commands
+config.status: executing include/jemalloc/internal/public_symbols.txt commands
+config.status: executing include/jemalloc/internal/public_namespace.h commands
+config.status: executing include/jemalloc/internal/public_unnamespace.h commands
+config.status: executing include/jemalloc/internal/size_classes.h commands
+config.status: executing include/jemalloc/jemalloc_protos_jet.h commands
+config.status: executing include/jemalloc/jemalloc_rename.h commands
+config.status: executing include/jemalloc/jemalloc_mangle.h commands
+config.status: executing include/jemalloc/jemalloc_mangle_jet.h commands
+config.status: executing include/jemalloc/jemalloc.h commands
+===============================================================================
+jemalloc version   : 4.2.1-0-g3de035335255d553bdb344c32ffdb603816195d8
+library revision   : 2
+
+CONFIG             : CC=/usr/bin/cc --prefix=/tmp/tmp.T8nxrK3k81/.deps/usr
+CC                 : /usr/bin/cc
+CFLAGS             : -std=gnu99 -Wall -Werror=declaration-after-statement -Wsign-compare -pipe -g3 -fvisibility=hidden -O3 -funroll-loops
+CPPFLAGS           :  -D_REENTRANT
+LDFLAGS            : 
+EXTRA_LDFLAGS      : 
+LIBS               :  -lpthread
+RPATH_EXTRA        : 
+
+XSLTPROC           : false
+XSLROOT            : 
+
+PREFIX             : /tmp/tmp.T8nxrK3k81/.deps/usr
+BINDIR             : /tmp/tmp.T8nxrK3k81/.deps/usr/bin
+DATADIR            : /tmp/tmp.T8nxrK3k81/.deps/usr/share
+INCLUDEDIR         : /tmp/tmp.T8nxrK3k81/.deps/usr/include
+LIBDIR             : /tmp/tmp.T8nxrK3k81/.deps/usr/lib
+MANDIR             : /tmp/tmp.T8nxrK3k81/.deps/usr/share/man
+
+srcroot            : 
+abs_srcroot        : /tmp/tmp.T8nxrK3k81/.deps/build/src/jemalloc/
+objroot            : 
+abs_objroot        : /tmp/tmp.T8nxrK3k81/.deps/build/src/jemalloc/
+
+JEMALLOC_PREFIX    : 
+JEMALLOC_PRIVATE_NAMESPACE
+                   : je_
+install_suffix     : 
+malloc_conf        : 
+autogen            : 0
+cc-silence         : 1
+debug              : 0
+code-coverage      : 0
+stats              : 1
+prof               : 0
+prof-libunwind     : 0
+prof-libgcc        : 0
+prof-gcc           : 0
+tcache             : 1
+fill               : 1
+utrace             : 0
+valgrind           : 0
+xmalloc            : 0
+munmap             : 1
+lazy_lock          : 0
+tls                : 0
+cache-oblivious    : 1
+===============================================================================
+[ 15%] No build step for 'jemalloc'
+[ 17%] Performing install step for 'jemalloc'
+install -m 644 include/jemalloc/jemalloc.h /tmp/tmp.T8nxrK3k81/.deps/usr/include/jemalloc
+install -m 755 lib/libjemalloc.a /tmp/tmp.T8nxrK3k81/.deps/usr/lib
+install -m 755 lib/libjemalloc_pic.a /tmp/tmp.T8nxrK3k81/.deps/usr/lib
+[ 18%] Completed 'jemalloc'
+[ 18%] Built target jemalloc
+Scanning dependencies of target msgpack
+[ 19%] Creating directories for 'msgpack'
+[ 20%] Performing download step for 'msgpack'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/msgpack/cpp-1.0.0.tar.gz
+-- downloading...
+     src='https://github.com/msgpack/msgpack-c/archive/cpp-1.0.0.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/msgpack/cpp-1.0.0.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/msgpack/cpp-1.0.0.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/msgpack'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 21%] No patch step for 'msgpack'
+[ 22%] No update step for 'msgpack'
+[ 23%] Performing configure step for 'msgpack'
+-- The C compiler identification is GNU 4.2.1
+-- The CXX compiler identification is GNU 4.2.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GTest: /usr/local/lib/libgtest.so.0.0  
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ZLIB: /usr/lib/libz.so.5.0 (found version "1.2.3") 
+-- Performing Test MSGPACK_ENABLE_GCC_CXX_ATOMIC
+-- Performing Test MSGPACK_ENABLE_GCC_CXX_ATOMIC - Failed
+-- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.T8nxrK3k81/.deps/build/src/msgpack-build
+[ 25%] Performing build step for 'msgpack'
+Scanning dependencies of target msgpack
+[  8%] Building C object CMakeFiles/msgpack.dir/src/unpack.c.o
+[ 16%] Building C object CMakeFiles/msgpack.dir/src/objectc.c.o
+[ 25%] Building C object CMakeFiles/msgpack.dir/src/version.c.o
+[ 33%] Building C object CMakeFiles/msgpack.dir/src/vrefbuffer.c.o
+[ 41%] Building C object CMakeFiles/msgpack.dir/src/zone.c.o
+[ 50%] Linking C shared library libmsgpack.so
+[ 50%] Built target msgpack
+Scanning dependencies of target msgpack-static
+[ 58%] Building C object CMakeFiles/msgpack-static.dir/src/unpack.c.o
+[ 66%] Building C object CMakeFiles/msgpack-static.dir/src/objectc.c.o
+[ 75%] Building C object CMakeFiles/msgpack-static.dir/src/version.c.o
+[ 83%] Building C object CMakeFiles/msgpack-static.dir/src/vrefbuffer.c.o
+[ 91%] Building C object CMakeFiles/msgpack-static.dir/src/zone.c.o
+[100%] Linking C static library libmsgpack.a
+[100%] Built target msgpack-static
+[ 26%] Performing install step for 'msgpack'
+[ 50%] Built target msgpack
+[100%] Built target msgpack-static
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libmsgpack.so.4.0
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libmsgpack.a
+-- Up-to-date: /tmp/tmp.T8nxrK3k81/.deps/usr/include
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/bool.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/bool_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/char_ptr.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/char_ptr_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/check_container_size.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/array.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/array_char.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/array_char_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/array_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/forward_list.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/tuple.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/tuple_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/unordered_map.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/unordered_set.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/define.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/deque.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/deque_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail/cpp03_define.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail/cpp11_define.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/fixint.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/fixint_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/float.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/float_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/int.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/int_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/list.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/list_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/map.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/map_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/msgpack_tuple.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/nil.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/tr1
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/tr1/unordered_map.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/tr1/unordered_set.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/msgpack_tuple_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/nil_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/pair.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/pair_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/raw.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/raw_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/set.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/set_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/string.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/string_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/vector.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/vector_bool.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/vector_bool_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/vector_char.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/vector_char_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/adaptor/vector_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/cpp_config.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/detail
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/detail/cpp03_zone.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/detail/cpp11_zone.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/fbuffer.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/fbuffer.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/gcc_atomic.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/iterator.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/object.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/object.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/object_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/pack.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/pack.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/pack_define.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/pack_template.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/sbuffer.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/sbuffer.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/sysdep.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/type.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/unpack.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/unpack.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/unpack_define.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/unpack_template.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/util.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/version.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/version.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/version_master.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/versioning.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/vrefbuffer.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/vrefbuffer.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/zbuffer.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/zbuffer.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/zone.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack/zone.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/msgpack_fwd.hpp
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/pkgconfig/msgpack.pc
+[ 27%] Completed 'msgpack'
+[ 27%] Built target msgpack
+Scanning dependencies of target luajit
+[ 28%] Creating directories for 'luajit'
+[ 29%] Performing download step for 'luajit'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/luajit/LuaJIT-2.0.4.tar.gz
+-- downloading...
+     src='https://github.com/neovim/deps/raw/master/opt/LuaJIT-2.0.4.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/luajit/LuaJIT-2.0.4.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/luajit/LuaJIT-2.0.4.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/luajit'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 30%] No patch step for 'luajit'
+[ 31%] No update step for 'luajit'
+[ 32%] No configure step for 'luajit'
+[ 34%] No build step for 'luajit'
+[ 35%] Performing install step for 'luajit'
+==== Building LuaJIT 2.0.4 ====
+HOSTCC    host/minilua.o
+HOSTLINK  host/minilua
+DYNASM    host/buildvm_arch.h
+HOSTCC    host/buildvm.o
+HOSTCC    host/buildvm_asm.o
+HOSTCC    host/buildvm_peobj.o
+HOSTCC    host/buildvm_lib.o
+HOSTCC    host/buildvm_fold.o
+HOSTLINK  host/buildvm
+BUILDVM   lj_vm.s
+ASM       lj_vm.o
+CC        lj_gc.o
+BUILDVM   lj_ffdef.h
+CC        lj_err.o
+CC        lj_char.o
+BUILDVM   lj_bcdef.h
+CC        lj_bc.o
+CC        lj_obj.o
+CC        lj_str.o
+CC        lj_tab.o
+CC        lj_func.o
+CC        lj_udata.o
+CC        lj_meta.o
+CC        lj_debug.o
+CC        lj_state.o
+CC        lj_dispatch.o
+CC        lj_vmevent.o
+CC        lj_vmmath.o
+CC        lj_strscan.o
+CC        lj_api.o
+CC        lj_lex.o
+CC        lj_parse.o
+CC        lj_bcread.o
+CC        lj_bcwrite.o
+CC        lj_load.o
+CC        lj_ir.o
+CC        lj_opt_mem.o
+BUILDVM   lj_folddef.h
+CC        lj_opt_fold.o
+CC        lj_opt_narrow.o
+CC        lj_opt_dce.o
+CC        lj_opt_loop.o
+CC        lj_opt_split.o
+CC        lj_opt_sink.o
+CC        lj_mcode.o
+CC        lj_snap.o
+CC        lj_record.o
+CC        lj_crecord.o
+BUILDVM   lj_recdef.h
+CC        lj_ffrecord.o
+CC        lj_asm.o
+CC        lj_trace.o
+CC        lj_gdbjit.o
+CC        lj_ctype.o
+CC        lj_cdata.o
+CC        lj_cconv.o
+CC        lj_ccall.o
+CC        lj_ccallback.o
+CC        lj_carith.o
+CC        lj_clib.o
+CC        lj_cparse.o
+CC        lj_lib.o
+CC        lj_alloc.o
+CC        lib_aux.o
+BUILDVM   lj_libdef.h
+CC        lib_base.o
+CC        lib_math.o
+CC        lib_bit.o
+CC        lib_string.o
+CC        lib_table.o
+CC        lib_io.o
+CC        lib_os.o
+CC        lib_package.o
+CC        lib_debug.o
+CC        lib_jit.o
+CC        lib_ffi.o
+CC        lib_init.o
+AR        libluajit.a
+CC        luajit.o
+BUILDVM   jit/vmdef.lua
+DYNLINK   libluajit.so
+LINK      luajit
+OK        Successfully built LuaJIT
+==== Successfully built LuaJIT 2.0.4 ====
+==== Installing LuaJIT 2.0.4 to /tmp/tmp.T8nxrK3k81/.deps/usr ====
+==== Successfully installed LuaJIT 2.0.4 to /tmp/tmp.T8nxrK3k81/.deps/usr ====
+[ 36%] Completed 'luajit'
+[ 36%] Built target luajit
+Scanning dependencies of target unibilium
+[ 37%] Creating directories for 'unibilium'
+[ 38%] Performing download step for 'unibilium'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/unibilium/v1.2.0.tar.gz
+-- downloading...
+     src='https://github.com/mauke/unibilium/archive/v1.2.0.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/unibilium/v1.2.0.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/unibilium/v1.2.0.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/unibilium'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 39%] No patch step for 'unibilium'
+[ 40%] No update step for 'unibilium'
+[ 42%] No configure step for 'unibilium'
+[ 43%] Performing build step for 'unibilium'
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c unibilium.c -fPIC -DPIC -o .libs/unibilium.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c unibilium.c -o unibilium.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c uninames.c -fPIC -DPIC -o .libs/uninames.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c uninames.c -o uninames.o
+/usr/bin/cc -I. -DTERMINFO_DIRS="/etc/terminfo:/lib/terminfo:/usr/share/terminfo:/usr/lib/terminfo:/usr/local/share/terminfo:/usr/local/lib/terminfo" -Wall -std=c99 -fPIC -c uniutil.c -fPIC -DPIC -o .libs/uniutil.o
+/usr/bin/cc -I. -DTERMINFO_DIRS="/etc/terminfo:/lib/terminfo:/usr/share/terminfo:/usr/lib/terminfo:/usr/local/share/terminfo:/usr/local/lib/terminfo" -Wall -std=c99 -fPIC -c uniutil.c -o uniutil.o
+libtool: link: /usr/bin/cc -shared -fPIC -DPIC -o .libs/libunibilium.so.3.0 .libs/unibilium.o .libs/uninames.o .libs/uniutil.o
+libtool: link: ar cru .libs/libunibilium.a unibilium.o uninames.o uniutil.o
+libtool: link: ranlib .libs/libunibilium.a
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c tools/gen-static-test.c -fPIC -DPIC -o tools/.libs/gen-static-test.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c tools/gen-static-test.c -o tools/gen-static-test.o
+libtool: link: /usr/bin/cc -o tools/.libs/gen-static-test tools/gen-static-test.o -Ltools/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c tools/unibi-dump.c -fPIC -DPIC -o tools/.libs/unibi-dump.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c tools/unibi-dump.c -o tools/unibi-dump.o
+libtool: link: /usr/bin/cc -o tools/.libs/unibi-dump tools/unibi-dump.o -Ltools/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c tools/unibi-put.c -fPIC -DPIC -o tools/.libs/unibi-put.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c tools/unibi-put.c -o tools/unibi-put.o
+libtool: link: /usr/bin/cc -o tools/.libs/unibi-put tools/unibi-put.o -Ltools/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_screen.c -fPIC -DPIC -o t/.libs/static_screen.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_screen.c -o t/static_screen.o
+libtool: link: /usr/bin/cc -o t/.libs/static_screen.t t/static_screen.o -Lt/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/if-then-else.c -fPIC -DPIC -o t/.libs/if-then-else.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/if-then-else.c -o t/if-then-else.o
+libtool: link: /usr/bin/cc -o t/.libs/if-then-else.t t/if-then-else.o -Lt/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_tmux.c -fPIC -DPIC -o t/.libs/static_tmux.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_tmux.c -o t/static_tmux.o
+libtool: link: /usr/bin/cc -o t/.libs/static_tmux.t t/static_tmux.o -Lt/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_xterm.c -fPIC -DPIC -o t/.libs/static_xterm.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_xterm.c -o t/static_xterm.o
+libtool: link: /usr/bin/cc -o t/.libs/static_xterm.t t/static_xterm.o -Lt/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_screen-256color.c -fPIC -DPIC -o t/.libs/static_screen-256color.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/static_screen-256color.c -o t/static_screen-256color.o
+libtool: link: /usr/bin/cc -o t/.libs/static_screen-256color.t t/static_screen-256color.o -Lt/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/00_load.c -fPIC -DPIC -o t/.libs/00_load.o
+/usr/bin/cc -I. -Wall -std=c99 -fPIC -c t/00_load.c -o t/00_load.o
+libtool: link: /usr/bin/cc -o t/.libs/00_load.t t/00_load.o -Lt/.libs -lunibilium -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib
+[ 44%] Performing install step for 'unibilium'
+libtool: install: cp ./.libs/libunibilium.a /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libunibilium.a
+libtool: install: cp ./.libs/libunibilium.so.3.0 /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libunibilium.so.3.0
+libtool: install: cp ./.libs/libunibilium.lai /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libunibilium.la
+[ 45%] Completed 'unibilium'
+[ 45%] Built target unibilium
+Scanning dependencies of target luarocks
+[ 46%] Creating directories for 'luarocks'
+[ 47%] Performing download step for 'luarocks'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/luarocks/5d8a16526573b36d5b22aa74866120c998466697.tar.gz
+-- downloading...
+     src='https://github.com/keplerproject/luarocks/archive/5d8a16526573b36d5b22aa74866120c998466697.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/luarocks/5d8a16526573b36d5b22aa74866120c998466697.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/luarocks/5d8a16526573b36d5b22aa74866120c998466697.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/luarocks'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 48%] No patch step for 'luarocks'
+[ 50%] No update step for 'luarocks'
+[ 51%] Performing configure step for 'luarocks'
+Checking Lua interpreter... luajit found in /tmp/tmp.T8nxrK3k81/.deps/usr/bin
+Checking Lua includes... lua.h found in /tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0/lua.h
+curl found at /usr/local/bin
+openssl found at /usr/bin
+Configuring for system... OpenBSD
+Configuring for architecture... amd64
+Using unversioned rocks dir: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+Writing configuration...
+
+Installation prefix: /tmp/tmp.T8nxrK3k81/.deps/usr
+LuaRocks configuration directory: /tmp/tmp.T8nxrK3k81/.deps/usr/etc/luarocks
+Using Lua from: /tmp/tmp.T8nxrK3k81/.deps/usr
+
+Done configuring.
+- Type 'make build' and 'make install':
+  to install to /tmp/tmp.T8nxrK3k81/.deps/usr as usual.
+- Type 'make bootstrap':
+  to install LuaRocks in /tmp/tmp.T8nxrK3k81/.deps/usr as a rock.
+
+[ 52%] No build step for 'luarocks'
+[ 53%] Performing install step for 'luarocks'
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+luarocks scm-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+[ 54%] Completed 'luarocks'
+[ 54%] Built target luarocks
+Scanning dependencies of target luv-static
+[ 55%] Creating directories for 'luv-static'
+[ 56%] Performing download step for 'luv-static'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/luv/1.9.1-0.tar.gz
+-- downloading...
+     src='https://github.com/luvit/luv/archive/1.9.1-0.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/luv/1.9.1-0.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/luv/1.9.1-0.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/luv'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 57%] Performing patch step for 'luv-static'
+[ 59%] No update step for 'luv-static'
+[ 60%] Performing configure step for 'luv-static'
+-- The C compiler identification is GNU 4.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found LIBUV: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libuv.a  
+-- Found LUAJIT: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libluajit-5.1.a  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.T8nxrK3k81/.deps/build/src/luv-static-build
+[ 61%] Performing build step for 'luv-static'
+Scanning dependencies of target luv
+[ 50%] Building C object CMakeFiles/luv.dir/src/luv.c.o
+[100%] Linking C static library libluv.a
+[100%] Built target luv
+[ 62%] Performing install step for 'luv-static'
+[100%] Built target luv
+Install the project...
+-- Install configuration: ""
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/lib/libluv.a
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/luv/luv.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/luv/util.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/luv/lhandle.h
+-- Installing: /tmp/tmp.T8nxrK3k81/.deps/usr/include/luv/lreq.h
+[ 63%] Completed 'luv-static'
+[ 63%] Built target luv-static
+Scanning dependencies of target gperf
+[ 64%] Creating directories for 'gperf'
+[ 65%] Performing download step for 'gperf'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/gperf/gperf-3.0.4.tar.gz
+-- downloading...
+     src='http://ftp.gnu.org/pub/gnu/gperf/gperf-3.0.4.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/gperf/gperf-3.0.4.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/gperf/gperf-3.0.4.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/gperf'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 67%] No patch step for 'gperf'
+[ 68%] No update step for 'gperf'
+[ 69%] Performing configure step for 'gperf'
+checking whether make sets $(MAKE)... yes
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in lib (/tmp/tmp.T8nxrK3k81/.deps/build/src/gperf/lib)
+configure: running /bin/sh ./configure '--prefix=/tmp/tmp.T8nxrK3k81/.deps/usr'  --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ranlib... ranlib
+checking for a BSD compatible install... /usr/bin/install -c
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in src (/tmp/tmp.T8nxrK3k81/.deps/build/src/gperf/src)
+configure: running /bin/sh ./configure '--prefix=/tmp/tmp.T8nxrK3k81/.deps/usr'  --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for a BSD compatible install... /usr/bin/install -c
+checking for stack-allocated variable-size arrays... yes
+checking for rand in -lm... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+=== configuring in tests (/tmp/tmp.T8nxrK3k81/.deps/build/src/gperf/tests)
+configure: running /bin/sh ./configure '--prefix=/tmp/tmp.T8nxrK3k81/.deps/usr'  --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in doc (/tmp/tmp.T8nxrK3k81/.deps/build/src/gperf/doc)
+configure: running /bin/sh ./configure '--prefix=/tmp/tmp.T8nxrK3k81/.deps/usr'  --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for a BSD compatible install... /usr/bin/install -c
+configure: creating ./config.status
+config.status: creating Makefile
+[ 70%] No build step for 'gperf'
+[ 71%] Performing install step for 'gperf'
+mkdir /tmp/tmp.T8nxrK3k81/.deps/usr/share/info
+mkdir /tmp/tmp.T8nxrK3k81/.deps/usr/share/doc
+[ 72%] Completed 'gperf'
+[ 72%] Built target gperf
+Scanning dependencies of target libtermkey
+[ 73%] Creating directories for 'libtermkey'
+[ 75%] Performing download step for 'libtermkey'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/libtermkey/libtermkey-0.18.tar.gz
+-- downloading...
+     src='http://www.leonerd.org.uk/code/libtermkey/libtermkey-0.18.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/libtermkey/libtermkey-0.18.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/libtermkey/libtermkey-0.18.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/libtermkey'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 76%] No patch step for 'libtermkey'
+[ 77%] No update step for 'libtermkey'
+[ 78%] No configure step for 'libtermkey'
+[ 79%] No build step for 'libtermkey'
+[ 80%] Performing install step for 'libtermkey'
+ln -sf termkey_new.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_destroy.3.gz
+ln -sf termkey_new.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_new_abstract.3.gz
+ln -sf termkey_set_flags.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_get_flags.3.gz
+ln -sf termkey_set_canonflags.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_get_canonflags.3.gz
+ln -sf termkey_set_buffer_size.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_get_buffer_size.3.gz
+ln -sf termkey_set_waittime.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_get_waittime.3.gz
+ln -sf termkey_getkey.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_getkey_force.3.gz
+ln -sf termkey_start.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_stop.3.gz
+ln -sf termkey_start.3.gz /tmp/tmp.T8nxrK3k81/.deps/usr/share/man/man3/termkey_is_started.3.gz
+[ 81%] Completed 'libtermkey'
+[ 81%] Built target libtermkey
+Scanning dependencies of target libvterm
+[ 82%] Creating directories for 'libvterm'
+[ 84%] Performing download step for 'libvterm'
+-- file: /tmp/tmp.T8nxrK3k81/.deps/build/downloads/libvterm/a9c7c6fd20fa35e0ad3e0e98901ca12dfca9c25c.tar.gz
+-- downloading...
+     src='https://github.com/neovim/libvterm/archive/a9c7c6fd20fa35e0ad3e0e98901ca12dfca9c25c.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/libvterm/a9c7c6fd20fa35e0ad3e0e98901ca12dfca9c25c.tar.gz'
+     timeout='none'
+-- downloading... done
+-- extracting...
+     src='/tmp/tmp.T8nxrK3k81/.deps/build/downloads/libvterm/a9c7c6fd20fa35e0ad3e0e98901ca12dfca9c25c.tar.gz'
+     dst='/tmp/tmp.T8nxrK3k81/.deps/build/src/libvterm'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 85%] No patch step for 'libvterm'
+[ 86%] No update step for 'libvterm'
+[ 87%] No configure step for 'libvterm'
+[ 88%] No build step for 'libvterm'
+[ 89%] Performing install step for 'libvterm'
+CC src/unicode.c
+CC src/vterm.c
+CC src/keyboard.c
+TBL src/encoding/uk.tbl
+TBL src/encoding/DECdrawing.tbl
+CC src/encoding.c
+CC src/mouse.c
+CC src/pen.c
+CC src/screen.c
+CC src/parser.c
+CC src/state.c
+LINK libvterm.la
+CC bin/vterm-dump.c
+CC bin/vterm-ctrl.c
+CC bin/unterm.c
+[ 90%] Completed 'libvterm'
+[ 90%] Built target libvterm
+Scanning dependencies of target mpack
+[ 92%] Generating usr/lib/luarocks/rocks/mpack
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c lmpack.c -o lmpack.o
+/usr/bin/cc -shared -o mpack.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib lmpack.o
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+mpack 1.0.2-0 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT)
+
+[ 92%] Built target mpack
+Scanning dependencies of target inspect
+[ 93%] Generating usr/lib/luarocks/rocks/inspect
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+inspect 3.1.0-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+[ 93%] Built target inspect
+Scanning dependencies of target penlight
+[ 94%] Generating usr/lib/luarocks/rocks/penlight/1.3.2-2
+Using https://luarocks.org/luafilesystem-1.6.3-2.src.rock... switching to 'build' mode
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/lfs.c -o src/lfs.o
+/usr/bin/cc -shared -o lfs.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib src/lfs.o
+Archive:  penlight-1.3.2-core.zip
+  inflating: penlight-1.3.2/LICENSE.md  
+   creating: penlight-1.3.2/lua/
+   creating: penlight-1.3.2/lua/pl/
+  inflating: penlight-1.3.2/lua/pl/lexer.lua  
+  inflating: penlight-1.3.2/lua/pl/dir.lua  
+  inflating: penlight-1.3.2/lua/pl/func.lua  
+  inflating: penlight-1.3.2/lua/pl/Set.lua  
+  inflating: penlight-1.3.2/lua/pl/compat.lua  
+  inflating: penlight-1.3.2/lua/pl/utils.lua  
+  inflating: penlight-1.3.2/lua/pl/luabalanced.lua  
+  inflating: penlight-1.3.2/lua/pl/comprehension.lua  
+  inflating: penlight-1.3.2/lua/pl/file.lua  
+  inflating: penlight-1.3.2/lua/pl/init.lua  
+  inflating: penlight-1.3.2/lua/pl/template.lua  
+  inflating: penlight-1.3.2/lua/pl/MultiMap.lua  
+  inflating: penlight-1.3.2/lua/pl/xml.lua  
+  inflating: penlight-1.3.2/lua/pl/stringio.lua  
+  inflating: penlight-1.3.2/lua/pl/pretty.lua  
+  inflating: penlight-1.3.2/lua/pl/path.lua  
+  inflating: penlight-1.3.2/lua/pl/lapp.lua  
+  inflating: penlight-1.3.2/lua/pl/class.lua  
+  inflating: penlight-1.3.2/lua/pl/config.lua  
+  inflating: penlight-1.3.2/lua/pl/permute.lua  
+  inflating: penlight-1.3.2/lua/pl/stringx.lua  
+  inflating: penlight-1.3.2/lua/pl/Map.lua  
+  inflating: penlight-1.3.2/lua/pl/types.lua  
+  inflating: penlight-1.3.2/lua/pl/Date.lua  
+  inflating: penlight-1.3.2/lua/pl/operator.lua  
+  inflating: penlight-1.3.2/lua/pl/import_into.lua  
+  inflating: penlight-1.3.2/lua/pl/app.lua  
+  inflating: penlight-1.3.2/lua/pl/tablex.lua  
+  inflating: penlight-1.3.2/lua/pl/test.lua  
+  inflating: penlight-1.3.2/lua/pl/text.lua  
+  inflating: penlight-1.3.2/lua/pl/input.lua  
+  inflating: penlight-1.3.2/lua/pl/url.lua  
+  inflating: penlight-1.3.2/lua/pl/seq.lua  
+  inflating: penlight-1.3.2/lua/pl/array2d.lua  
+  inflating: penlight-1.3.2/lua/pl/OrderedMap.lua  
+  inflating: penlight-1.3.2/lua/pl/data.lua  
+  inflating: penlight-1.3.2/lua/pl/List.lua  
+  inflating: penlight-1.3.2/lua/pl/sip.lua  
+  inflating: penlight-1.3.2/lua/pl/strict.lua  
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+luafilesystem 1.6.3-2 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+penlight 1.3.2-2 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+[ 94%] Built target penlight
+Scanning dependencies of target busted
+[ 95%] Generating usr/bin/busted
+Using https://luarocks.org/say-1.3-1.rockspec... switching to 'build' mode
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+say 1.3-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+Using https://luarocks.org/lua_cliargs-2.5-5.src.rock... switching to 'build' mode
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+lua_cliargs 2.5-5 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+Using https://luarocks.org/lua-term-0.7-1.rockspec... switching to 'build' mode
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c core.c -o core.o
+/usr/bin/cc -shared -o term/core.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib core.o
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+lua-term 0.7-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+Using https://luarocks.org/mediator_lua-1.1.2-0.rockspec... switching to 'build' mode
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+mediator_lua 1.1.2-0 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+Using https://luarocks.org/dkjson-2.5-2.src.rock... switching to 'build' mode
+Archive:  v3.0-rc1.zip
+22cd5833fcc0e272f26004a79c8545e959ba406b
+   creating: luasocket-3.0-rc1/
+  inflating: luasocket-3.0-rc1/.gitignore  
+  inflating: luasocket-3.0-rc1/.travis.yml  
+  inflating: luasocket-3.0-rc1/FIX   
+  inflating: luasocket-3.0-rc1/LICENSE  
+  inflating: luasocket-3.0-rc1/Lua51.props  
+  inflating: luasocket-3.0-rc1/Lua52.props  
+  inflating: luasocket-3.0-rc1/NEW   
+  inflating: luasocket-3.0-rc1/README  
+  inflating: luasocket-3.0-rc1/TODO  
+  inflating: luasocket-3.0-rc1/WISH  
+   creating: luasocket-3.0-rc1/doc/
+  inflating: luasocket-3.0-rc1/doc/dns.html  
+  inflating: luasocket-3.0-rc1/doc/ftp.html  
+  inflating: luasocket-3.0-rc1/doc/http.html  
+  inflating: luasocket-3.0-rc1/doc/index.html  
+  inflating: luasocket-3.0-rc1/doc/installation.html  
+  inflating: luasocket-3.0-rc1/doc/introduction.html  
+  inflating: luasocket-3.0-rc1/doc/ltn12.html  
+  inflating: luasocket-3.0-rc1/doc/lua05.ppt  
+  inflating: luasocket-3.0-rc1/doc/luasocket.png  
+  inflating: luasocket-3.0-rc1/doc/mime.html  
+  inflating: luasocket-3.0-rc1/doc/reference.css  
+  inflating: luasocket-3.0-rc1/doc/reference.html  
+  inflating: luasocket-3.0-rc1/doc/smtp.html  
+  inflating: luasocket-3.0-rc1/doc/socket.html  
+  inflating: luasocket-3.0-rc1/doc/tcp.html  
+  inflating: luasocket-3.0-rc1/doc/udp.html  
+  inflating: luasocket-3.0-rc1/doc/url.html  
+   creating: luasocket-3.0-rc1/etc/
+  inflating: luasocket-3.0-rc1/etc/README  
+  inflating: luasocket-3.0-rc1/etc/b64.lua  
+  inflating: luasocket-3.0-rc1/etc/check-links.lua  
+  inflating: luasocket-3.0-rc1/etc/check-memory.lua  
+  inflating: luasocket-3.0-rc1/etc/cookie.lua  
+  inflating: luasocket-3.0-rc1/etc/dict.lua  
+  inflating: luasocket-3.0-rc1/etc/dispatch.lua  
+  inflating: luasocket-3.0-rc1/etc/eol.lua  
+  inflating: luasocket-3.0-rc1/etc/forward.lua  
+  inflating: luasocket-3.0-rc1/etc/get.lua  
+  inflating: luasocket-3.0-rc1/etc/links  
+  inflating: luasocket-3.0-rc1/etc/lp.lua  
+  inflating: luasocket-3.0-rc1/etc/qp.lua  
+  inflating: luasocket-3.0-rc1/etc/tftp.lua  
+   creating: luasocket-3.0-rc1/gem/
+  inflating: luasocket-3.0-rc1/gem/ex1.lua  
+  inflating: luasocket-3.0-rc1/gem/ex10.lua  
+  inflating: luasocket-3.0-rc1/gem/ex11.lua  
+  inflating: luasocket-3.0-rc1/gem/ex12.lua  
+  inflating: luasocket-3.0-rc1/gem/ex2.lua  
+  inflating: luasocket-3.0-rc1/gem/ex3.lua  
+  inflating: luasocket-3.0-rc1/gem/ex4.lua  
+  inflating: luasocket-3.0-rc1/gem/ex5.lua  
+  inflating: luasocket-3.0-rc1/gem/ex6.lua  
+  inflating: luasocket-3.0-rc1/gem/ex7.lua  
+  inflating: luasocket-3.0-rc1/gem/ex8.lua  
+  inflating: luasocket-3.0-rc1/gem/ex9.lua  
+  inflating: luasocket-3.0-rc1/gem/gem.c  
+  inflating: luasocket-3.0-rc1/gem/gt.b64  
+  inflating: luasocket-3.0-rc1/gem/input.bin  
+  inflating: luasocket-3.0-rc1/gem/ltn012.tex  
+  inflating: luasocket-3.0-rc1/gem/luasocket.png  
+  inflating: luasocket-3.0-rc1/gem/makefile  
+  inflating: luasocket-3.0-rc1/gem/myps2pdf  
+  inflating: luasocket-3.0-rc1/gem/t1.lua  
+  inflating: luasocket-3.0-rc1/gem/t1lf.txt  
+  inflating: luasocket-3.0-rc1/gem/t2.lua  
+  inflating: luasocket-3.0-rc1/gem/t2.txt  
+  inflating: luasocket-3.0-rc1/gem/t2gt.qp  
+  inflating: luasocket-3.0-rc1/gem/t3.lua  
+  inflating: luasocket-3.0-rc1/gem/t4.lua  
+  inflating: luasocket-3.0-rc1/gem/t5.lua  
+  inflating: luasocket-3.0-rc1/gem/test.lua  
+  inflating: luasocket-3.0-rc1/linux.cmd  
+  inflating: luasocket-3.0-rc1/logo.ps  
+  inflating: luasocket-3.0-rc1/ltn012.wiki  
+  inflating: luasocket-3.0-rc1/ltn013.wiki  
+  inflating: luasocket-3.0-rc1/luasocket-scm-0.rockspec  
+  inflating: luasocket-3.0-rc1/luasocket.sln  
+  inflating: luasocket-3.0-rc1/macosx.cmd  
+  inflating: luasocket-3.0-rc1/makefile  
+  inflating: luasocket-3.0-rc1/makefile.dist  
+  inflating: luasocket-3.0-rc1/mime.vcxproj  
+  inflating: luasocket-3.0-rc1/mime.vcxproj.filters  
+  inflating: luasocket-3.0-rc1/mingw.cmd  
+   creating: luasocket-3.0-rc1/samples/
+  inflating: luasocket-3.0-rc1/samples/README  
+  inflating: luasocket-3.0-rc1/samples/cddb.lua  
+  inflating: luasocket-3.0-rc1/samples/daytimeclnt.lua  
+  inflating: luasocket-3.0-rc1/samples/echoclnt.lua  
+  inflating: luasocket-3.0-rc1/samples/echosrvr.lua  
+  inflating: luasocket-3.0-rc1/samples/listener.lua  
+  inflating: luasocket-3.0-rc1/samples/lpr.lua  
+  inflating: luasocket-3.0-rc1/samples/mclisten.lua  
+  inflating: luasocket-3.0-rc1/samples/mcsend.lua  
+  inflating: luasocket-3.0-rc1/samples/talker.lua  
+  inflating: luasocket-3.0-rc1/samples/tinyirc.lua  
+  inflating: luasocket-3.0-rc1/socket.vcxproj  
+  inflating: luasocket-3.0-rc1/socket.vcxproj.filters  
+   creating: luasocket-3.0-rc1/src/
+  inflating: luasocket-3.0-rc1/src/auxiliar.c  
+  inflating: luasocket-3.0-rc1/src/auxiliar.h  
+  inflating: luasocket-3.0-rc1/src/buffer.c  
+  inflating: luasocket-3.0-rc1/src/buffer.h  
+  inflating: luasocket-3.0-rc1/src/except.c  
+  inflating: luasocket-3.0-rc1/src/except.h  
+  inflating: luasocket-3.0-rc1/src/ftp.lua  
+  inflating: luasocket-3.0-rc1/src/headers.lua  
+  inflating: luasocket-3.0-rc1/src/http.lua  
+  inflating: luasocket-3.0-rc1/src/inet.c  
+  inflating: luasocket-3.0-rc1/src/inet.h  
+  inflating: luasocket-3.0-rc1/src/io.c  
+  inflating: luasocket-3.0-rc1/src/io.h  
+  inflating: luasocket-3.0-rc1/src/ltn12.lua  
+  inflating: luasocket-3.0-rc1/src/luasocket.c  
+  inflating: luasocket-3.0-rc1/src/luasocket.h  
+  inflating: luasocket-3.0-rc1/src/makefile  
+  inflating: luasocket-3.0-rc1/src/mbox.lua  
+  inflating: luasocket-3.0-rc1/src/mime.c  
+  inflating: luasocket-3.0-rc1/src/mime.h  
+  inflating: luasocket-3.0-rc1/src/mime.lua  
+  inflating: luasocket-3.0-rc1/src/options.c  
+  inflating: luasocket-3.0-rc1/src/options.h  
+  inflating: luasocket-3.0-rc1/src/select.c  
+  inflating: luasocket-3.0-rc1/src/select.h  
+  inflating: luasocket-3.0-rc1/src/serial.c  
+  inflating: luasocket-3.0-rc1/src/smtp.lua  
+  inflating: luasocket-3.0-rc1/src/socket.h  
+  inflating: luasocket-3.0-rc1/src/socket.lua  
+  inflating: luasocket-3.0-rc1/src/tcp.c  
+  inflating: luasocket-3.0-rc1/src/tcp.h  
+  inflating: luasocket-3.0-rc1/src/timeout.c  
+  inflating: luasocket-3.0-rc1/src/timeout.h  
+  inflating: luasocket-3.0-rc1/src/tp.lua  
+  inflating: luasocket-3.0-rc1/src/udp.c  
+  inflating: luasocket-3.0-rc1/src/udp.h  
+  inflating: luasocket-3.0-rc1/src/unix.c  
+  inflating: luasocket-3.0-rc1/src/unix.h  
+  inflating: luasocket-3.0-rc1/src/url.lua  
+  inflating: luasocket-3.0-rc1/src/usocket.c  
+  inflating: luasocket-3.0-rc1/src/usocket.h  
+  inflating: luasocket-3.0-rc1/src/wsocket.c  
+  inflating: luasocket-3.0-rc1/src/wsocket.h  
+   creating: luasocket-3.0-rc1/test/
+  inflating: luasocket-3.0-rc1/test/README  
+   creating: luasocket-3.0-rc1/test/auth/
+ extracting: luasocket-3.0-rc1/test/auth/.htpasswd  
+  inflating: luasocket-3.0-rc1/test/auth/index.html  
+   creating: luasocket-3.0-rc1/test/cgi/
+  inflating: luasocket-3.0-rc1/test/cgi/cat  
+  inflating: luasocket-3.0-rc1/test/cgi/cat-index-html  
+  inflating: luasocket-3.0-rc1/test/cgi/env  
+  inflating: luasocket-3.0-rc1/test/cgi/query-string  
+  inflating: luasocket-3.0-rc1/test/cgi/redirect-loop  
+  inflating: luasocket-3.0-rc1/test/cgi/request-uri  
+  inflating: luasocket-3.0-rc1/test/dicttest.lua  
+  inflating: luasocket-3.0-rc1/test/excepttest.lua  
+  inflating: luasocket-3.0-rc1/test/find-connect-limit  
+  inflating: luasocket-3.0-rc1/test/ftptest.lua  
+  inflating: luasocket-3.0-rc1/test/hello.lua  
+  inflating: luasocket-3.0-rc1/test/httptest.lua  
+  inflating: luasocket-3.0-rc1/test/index.html  
+  inflating: luasocket-3.0-rc1/test/ltn12test.lua  
+  inflating: luasocket-3.0-rc1/test/luasocket.png  
+  inflating: luasocket-3.0-rc1/test/mimetest.lua  
+  inflating: luasocket-3.0-rc1/test/smtptest.lua  
+  inflating: luasocket-3.0-rc1/test/stufftest.lua  
+  inflating: luasocket-3.0-rc1/test/tcp-getoptions  
+  inflating: luasocket-3.0-rc1/test/test_bind.lua  
+  inflating: luasocket-3.0-rc1/test/test_getaddrinfo.lua  
+  inflating: luasocket-3.0-rc1/test/test_socket_error.lua  
+  inflating: luasocket-3.0-rc1/test/testclnt.lua  
+  inflating: luasocket-3.0-rc1/test/testmesg.lua  
+  inflating: luasocket-3.0-rc1/test/testsrvr.lua  
+  inflating: luasocket-3.0-rc1/test/testsupport.lua  
+  inflating: luasocket-3.0-rc1/test/tftptest.lua  
+  inflating: luasocket-3.0-rc1/test/udp-zero-length-send  
+  inflating: luasocket-3.0-rc1/test/udp-zero-length-send-recv  
+  inflating: luasocket-3.0-rc1/test/udpconnectclnt.lua  
+  inflating: luasocket-3.0-rc1/test/udpconnectsrvr.lua  
+  inflating: luasocket-3.0-rc1/test/unixclnt.lua  
+  inflating: luasocket-3.0-rc1/test/unixsrvr.lua  
+  inflating: luasocket-3.0-rc1/test/upload.html  
+  inflating: luasocket-3.0-rc1/test/urltest.lua  
+  inflating: luasocket-3.0-rc1/test/utestclnt.lua  
+  inflating: luasocket-3.0-rc1/test/utestsrvr.lua  
+  inflating: luasocket-3.0-rc1/win32.cmd  
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+dkjson 2.5-2 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+Using https://luarocks.org/luasocket-3.0rc1-2.src.rock... switching to 'build' mode
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/mime.c -o src/mime.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -shared -o mime/core.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib src/mime.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/buffer.c -o src/buffer.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/auxiliar.c -o src/auxiliar.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/options.c -o src/options.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/timeout.c -o src/timeout.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/io.c -o src/io.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/usocket.c -o src/usocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/serial.c -o src/serial.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -shared -o socket/serial.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib src/buffer.o src/auxiliar.o src/options.o src/timeout.o src/io.o src/usocket.o src/serial.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/luasocket.c -o src/luasocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/timeout.c -o src/timeout.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/buffer.c -o src/buffer.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/io.c -o src/io.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/auxiliar.c -o src/auxiliar.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/options.c -o src/options.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/inet.c -o src/inet.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/except.c -o src/except.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/select.c -o src/select.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/tcp.c -o src/tcp.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/udp.c -o src/udp.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/usocket.c -o src/usocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -shared -o socket/core.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib src/luasocket.o src/timeout.o src/buffer.o src/io.o src/auxiliar.o src/options.o src/inet.o src/except.o src/select.o src/tcp.o src/udp.o src/usocket.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/buffer.c -o src/buffer.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/auxiliar.c -o src/auxiliar.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/options.c -o src/options.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/timeout.c -o src/timeout.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/io.c -o src/io.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/usocket.c -o src/usocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/unix.c -o src/unix.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+/usr/bin/cc -shared -o socket/unix.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib src/buffer.o src/auxiliar.o src/options.o src/timeout.o src/io.o src/usocket.o src/unix.o
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+luasocket 3.0rc1-2 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT)
+
+Using https://luarocks.org/luassert-1.7.10-0.rockspec... switching to 'build' mode
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+luassert 1.7.10-0 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+busted 2.0.rc11-0 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+[ 95%] Built target busted
+Scanning dependencies of target luacheck
+[ 96%] Generating usr/bin/luacheck
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+luacheck scm-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT <http://opensource.org/licenses/MIT>)
+
+[ 96%] Built target luacheck
+Scanning dependencies of target luv
+[ 97%] Generating usr/lib/luarocks/rocks/luv
+/usr/bin/cc -O0 -g3 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c src/luv.c -o src/luv.o -I/tmp/tmp.T8nxrK3k81/.deps/usr/include
+/usr/bin/cc -shared -o luv.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib src/luv.o -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib -Wl,-rpath,/tmp/tmp.T8nxrK3k81/.deps/usr/lib: -luv
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+luv 1.9.1-0 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: Apache 2.0)
+
+[ 97%] Built target luv
+Scanning dependencies of target nvim-client
+[ 98%] Generating usr/lib/luarocks/rocks/nvim-client
+Using https://luarocks.org/coxpcall-1.16.0-1.src.rock... switching to 'build' mode
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+coxpcall 1.16.0-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c nvim/native.c -o nvim/native.o
+/usr/bin/cc -shared -o nvim/native.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib nvim/native.o
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+nvim-client 0.0.1-25 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: Apache)
+
+[ 98%] Built target nvim-client
+Scanning dependencies of target lpeg
+[100%] Generating usr/lib/luarocks/rocks/lpeg
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c lpcap.c -o lpcap.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c lpcode.c -o lpcode.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c lpprint.c -o lpprint.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c lptree.c -o lptree.o
+/usr/bin/cc -O2 -fPIC -I/tmp/tmp.T8nxrK3k81/.deps/usr/include/luajit-2.0 -c lpvm.c -o lpvm.o
+/usr/bin/cc -shared -o lpeg.so -L/tmp/tmp.T8nxrK3k81/.deps/usr/lib lpcap.o lpcode.o lpprint.o lptree.o lpvm.o
+Updating manifest for /tmp/tmp.T8nxrK3k81/.deps/usr/lib/luarocks/rocks
+lpeg 1.0.0-1 is now built and installed in /tmp/tmp.T8nxrK3k81/.deps/usr (license: MIT/X11)
+
+[100%] Built target lpeg
+Scanning dependencies of target clean-shared-libraries
+[100%] Built target clean-shared-libraries
+Scanning dependencies of target third-party
+[100%] Built target third-party
